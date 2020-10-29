@@ -1,0 +1,12 @@
+[submodule "raspberrypi/meta-raspberrypi"]
+	path = raspberrypi/meta-raspberrypi
+	url = http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi
+	branch = dunfell
+[submodule "raspberrypi/meta-openembedded"]
+	path = raspberrypi/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = dunfell
+[submodule "raspberrypi/poky"]
+	path = raspberrypi/poky
+	url = https://github.com/balena-os/poky.git
+	branch = dunfell
