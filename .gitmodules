@@ -10,3 +10,15 @@
 	path = raspberrypi/poky
 	url = https://github.com/balena-os/poky.git
 	branch = dunfell
+[submodule "raspberrypi4/poky"]
+	path = raspberrypi4/poky
+	url = git@github.com:balena-os/poky.git
+	branch = dunfell
+[submodule "raspberrypi4/meta-raspberrypi"]
+	path = raspberrypi4/meta-raspberrypi
+	url = http://git.yoctoproject.org/cgit/cgit.cgi/meta-raspberrypi
+	branch = dunfell
+[submodule "raspberrypi4/meta-openembedded"]
+        path = raspberrypi4/meta-openembedded
+        url = https://github.com/openembedded/meta-openembedded.git
+        branch = dunfell

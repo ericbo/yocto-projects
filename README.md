@@ -3,3 +3,4 @@ A repo to keep track of the yocto metas/configs for all the personal projects I 
 
 ## Index
 - [Raspberry Pi Model B](./raspberrypi)
+- [Raspberry Pi 4](./raspberrypi4)
