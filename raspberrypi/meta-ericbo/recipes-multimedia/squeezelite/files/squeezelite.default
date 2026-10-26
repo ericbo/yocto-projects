@@ -1,0 +1,17 @@
+# Squeezelite runtime configuration
+# Edit this file on the running device (e.g. over SSH) — no rebuild required.
+#
+# SL_OPTIONS is passed directly to squeezelite. Common flags:
+#   -n <name>   Player name shown in LMS            (default: hostname)
+#   -s <addr>   LMS server IP or hostname           (default: mDNS auto-discovery)
+#   -o <dev>    ALSA output device                  (default: default)
+#   -a <b>:<p>  Buffer size:period count
+#
+# Examples:
+#   SL_OPTIONS="-n LivingRoom"
+#   SL_OPTIONS="-n LivingRoom -s 192.168.1.10"
+#
+# With no -s flag squeezelite discovers LMS automatically via mDNS,
+# which requires avahi-daemon to be running (already included in this image).
+
+SL_OPTIONS="-n raspberrypi"

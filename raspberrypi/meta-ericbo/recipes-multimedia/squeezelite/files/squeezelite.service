@@ -1,0 +1,13 @@
+[Unit]
+Description=Squeezelite audio player
+After=network.target sound.target avahi-daemon.service
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/default/squeezelite
+ExecStart=/usr/bin/squeezelite $SL_OPTIONS
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
