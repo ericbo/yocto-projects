@@ -14,4 +14,7 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     nano \
     curl \
     openssh-sftp-server \
+    linux-firmware-ralink \
+    iw \
+    wifi-config \
 "
